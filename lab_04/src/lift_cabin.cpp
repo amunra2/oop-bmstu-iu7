@@ -123,7 +123,7 @@ void Cabin::cabin_target(int floor)
 
 void Cabin::ready()
 {
-    qDebug() << "\tIn cabin_ready" << __LINE__ << __FUNCTION__;
+    // qDebug() << "\tIn cabin_ready" << __LINE__ << __FUNCTION__;
 
 //    if (_is_last)
 //    {
@@ -143,7 +143,7 @@ void Cabin::ready()
 
 void Cabin::cabin_stop(bool last, int floor)
 {
-    qDebug() << "\tIn cabin_stop" << __LINE__ << __FUNCTION__;
+    // qDebug() << "\tIn cabin_stop" << __LINE__ << __FUNCTION__;
 
     //_is_last = last;
 //

@@ -65,7 +65,7 @@ void Door::slot_open()
 
 void Door::slot_closing()
 {
-    qDebug() << "\tIn closing" << __LINE__ << __FUNCTION__;
+    // qDebug() << "\tIn closing" << __LINE__ << __FUNCTION__;
 
     if (OPEN != _state) { return; }
 
@@ -77,7 +77,7 @@ void Door::slot_closing()
 
 void Door::slot_close()
 {
-    qDebug() << "\tIn close" << __LINE__ << __FUNCTION__;
+    // qDebug() << "\tIn close" << __LINE__ << __FUNCTION__;
 
     if (CLOSING != _state) { return; }
 
